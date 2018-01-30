@@ -129,7 +129,7 @@ public class Env extends CordovaPlugin {
         } else {
             result = "";
         }
-        return result; 
+        return Environment.getExternalStoragePublicDirectory(result).toString();
     }
 
 }
